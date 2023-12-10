@@ -1,0 +1,298 @@
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+}
+
+.container {
+  background-color: #fff;
+  width: 100vw;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(51, 45, 45);
+  font-size: 18px;
+  text-align: center;
+}
+
+h6 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+
+#true {
+  color: indigo;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+#tru {
+  color: indigo;
+  font-size: 28px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 1rem;
+  width: 8rem;
+  height: 2rem;
+  border: none;
+}
+
+#false:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#false {
+  color: deeppink;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+#quizz {
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  color: #3b2e2e;
+}
+
+.line {
+  width: 100%;
+  height: 100px;
+}
+
+#title {
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  color: #4e4747;
+}
+
+span {
+  color: #fff;
+}
+
+#fals {
+  color: deeppink;
+  font-size: 28px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 1rem;
+  width: 8rem;
+  height: 2rem;
+  border: none;
+}
+
+.truefalse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding-bottom: 2rem;
+}
+
+#replay {
+  color: #fff;
+}
+
+#truthy {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: deeppink;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.category {
+  padding: 10px;
+}
+
+#falcy {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: indigo;
+  cursor: pointer;
+  color: #fff;
+}
+
+#start {
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-radius: 33px;
+  color: #fff;
+  background-color: #3498db;
+  padding: 20px;
+}
+
+#star {
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-radius: 33px;
+  color: #fff;
+  background-color: deepskyblue;
+  padding: 20px;
+}
+
+#cat {
+  color: #3498db;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ans {
+  background-color: deeppink;
+  width: 100vw;
+  height: 1000px;
+  padding: 20px;
+}
+
+.choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 1rem;
+}
+
+.submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#submit {
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-radius: 33px;
+  color: #fff;
+  background-color: indigo;
+  padding: 20px;
+  padding-right: -10px;
+}
+
+.card {
+  max-width: 400px;
+  width: 90vw;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.body {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.bod {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  height: 50%;
+}
+
+h6 {
+  color: #fff;
+}
+
+.card-header {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-footer {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+
+.result-card {
+  max-width: 400px;
+  width: 90vw;
+  background-color: #3498db;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 20px;
+  transition: transform 0.3s ease-in-out;
+  padding-bottom: 20px;
+}
+
+.result-card:hover {
+  transform: scale(1.05);
+}
+
+h3 {
+  color: #3498db;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.result-card img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.result-card-content {
+  padding: 20px;
+}
+
+#black {
+  color: #000;
+}
+
+.result-card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.result-card-description {
+  font-size: 0.9em;
+  color: #666;
+}
+
+@media screen and (max-width: 400px) {
+  .questions {
+    width: 80%;
+    margin: auto;
+  }
+}

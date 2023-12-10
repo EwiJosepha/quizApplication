@@ -1,25 +1,27 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { QueryClientProvider, QueryClient } from '@tanstack/react-query';
+import { useState } from 'react';
+import Home from './Components/Pages/Home';
+import { Appcontext } from './Components/Hooks/Context';
+import Questions from './Components/Quiz/Question';
+import Results from './Components/Pages/Results';
 
 function App() {
+  const client = new QueryClient();
+  const [counter, setCounter] = useState(0);
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          Edit
-          <code>src/App.js</code>
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Appcontext.Provider value={{ counter, setCounter }}>
+      <QueryClientProvider client={client}>
+        <Router>
+          <Routes>
+            <Route path="/Results" element={<Results />} />
+            <Route path="/Question/:id" element={<Questions />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </Router>
+      </QueryClientProvider>
+    </Appcontext.Provider>
   );
 }
 
