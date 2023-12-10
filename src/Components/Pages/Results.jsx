@@ -12,9 +12,9 @@ function Results() {
         <div class="result-card">
           <div class="result-card-content">
             <h2 class="result-card-title">
-              Result <span>{counter}</span> /10
+              Result <br /> <span>{counter}</span> /10
             </h2>
-            <p id="replay" class="result-card-description">
+            <p id="replay" className="result-card-description">
               You Can Learn Better By Playing Many Times
             </p>
             <button

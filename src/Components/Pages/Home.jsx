@@ -10,7 +10,7 @@ function Home() {
           <div className="line">
             <h3>
               All you have to do is to Answer
-              <br /> <span id="true">True</span> or{' '}
+              <br /> <span id="true">True</span> or
               <span id="false">False</span>
             </h3>
           </div>

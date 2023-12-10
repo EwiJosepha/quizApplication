@@ -74,7 +74,6 @@ h6 {
 
 span {
   color: #fff;
-  padding: 30px;
 }
 
 #fals {
@@ -97,7 +96,7 @@ span {
   padding-bottom: 2rem;
 }
 
-.replay {
+#replay {
   color: #fff;
 }
 
